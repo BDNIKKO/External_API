@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Google Translate Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Translate Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <h1>Google Translate Dashboard</h1>
-   <form id="translateForm">
-      <textarea id="text" placeholder="Enter text to detect language" required></textarea>
-      <button type="submit">Detect Language</button>
-   </form>
-   <div id="result"></div>
-   <script src="main.js"></script>
+    <div class="card">
+        <div class="card-body">
+            <div class="header">
+                <img src="Google-Translate-Logo_PNG6.png" alt="Google Translate Logo" class="google-translate-logo">
+            </div>
+            <form id="translateForm">
+                <div class="form-group">
+                    <textarea id="text" class="form-control" placeholder="Enter text to detect language" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Detect Language</button>
+            </form>
+            <div id="result" class="mt-4"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
