@@ -79,7 +79,7 @@ document.getElementById('translateForm').addEventListener('submit', async (e) =>
            resultDiv.innerHTML = `
                <h2 class="centered">Language Detection Result</h2>
                <hr class="styled-hr">
-               <div class="language-output centered">
+               <div class="language-output centered reveal">
                    <p>Language: ${detectedLanguage}</p>
                </div>
            `;
