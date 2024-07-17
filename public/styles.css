@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
     display: flex;
     justify-content: center;
@@ -10,28 +10,28 @@ body {
 }
 
 .card {
-    max-width: 600px; /* Increased width */
-    width: 90%; /* Make the card responsive */
+    max-width: 600px; 
+    width: 90%; 
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px; /* Rounded edges */
-    padding: 20px; /* Added padding for better spacing */
-    transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover animation */
+    border-radius: 10px; 
+    padding: 20px; 
+    transition: transform 0.3s, box-shadow 0.3s; 
 }
 
 .card:hover {
-    transform: scale(1.05); /* Hover animation */
+    transform: scale(1.05); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .card-title {
-    font-size: 2rem; /* Increased font size */
+    font-size: 2rem; 
     font-weight: bold;
     margin: 0;
 }
 
 .card-text {
-    font-size: 1.2rem; /* Increased font size */
+    font-size: 1.2rem; 
     color: #6c757d;
 }
 
@@ -45,12 +45,12 @@ body {
 .language-output {
     text-align: center;
     margin-top: 10px;
-    font-size: 2rem; /* Increased font size */
+    font-size: 2rem; 
     font-weight: 700;
     color: #333;
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 1.5s, transform 100.5s; /* Slower transition */
+    transition: opacity 1.5s, transform 100.5s;
 }
 
 .language-output.reveal {
@@ -66,7 +66,7 @@ body {
 }
 
 .google-translate-logo {
-    width: 250px; /* Increased size */
+    width: 250px; 
     max-width: 100%;
     height: auto;
 }
